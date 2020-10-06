@@ -1,6 +1,6 @@
 [package]
 name = "mandelbrot"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["SwiftViktor <panafviktor@gmail.com>"]
 edition = "2018"
 
@@ -8,3 +8,4 @@ edition = "2018"
 
 [dependencies]
 num = "0.3.0"
+clap = "3.0.0-beta.2"
