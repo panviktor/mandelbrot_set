@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f571d0-2b16-4291-b478-792702e3ef51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshot/Screenshot _1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602000316960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="A simple console application written in Rust to display Mandelbrot set.">
+      <created>1602000448322</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602000448322</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,10 +116,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1489" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1601999208807" />
-    <state x="946" y="354" key="CommitChangelistDialog2" timestamp="1602000316814">
+    <state x="946" y="354" key="CommitChangelistDialog2" timestamp="1602000448192">
       <screen x="0" y="25" width="2560" height="1340" />
     </state>
-    <state x="946" y="354" key="CommitChangelistDialog2/0.25.2560.1340@0.25.2560.1340" timestamp="1602000316814" />
+    <state x="946" y="354" key="CommitChangelistDialog2/0.25.2560.1340@0.25.2560.1340" timestamp="1602000448192" />
     <state width="2518" height="2" key="GridCell.Tab.0.bottom" timestamp="1602000347324">
       <screen x="0" y="25" width="2560" height="1340" />
     </state>
@@ -122,5 +140,9 @@
     </state>
     <state width="979" height="424" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1601999211791" />
     <state width="2518" height="2" key="GridCell.Tab.0.right/0.25.2560.1340@0.25.2560.1340" timestamp="1602000347323" />
+    <state x="880" y="419" key="Vcs.Push.Dialog.v2" timestamp="1602000692049">
+      <screen x="0" y="25" width="2560" height="1340" />
+    </state>
+    <state x="880" y="419" key="Vcs.Push.Dialog.v2/0.25.2560.1340@0.25.2560.1340" timestamp="1602000692049" />
   </component>
 </project>
