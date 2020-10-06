@@ -14,15 +14,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70f571d0-2b16-4291-b478-792702e3ef51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602000850336</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add CLI">
+      <created>1602008804187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602008804187</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,40 +145,47 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="A simple console application written in Rust to display Mandelbrot set." />
     <MESSAGE value="add screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="add screenshot" />
+    <MESSAGE value="add CLI" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CLI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1489" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601999208807">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1489" y="379" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1601999208807" />
-    <state x="946" y="354" key="CommitChangelistDialog2" timestamp="1602000850208">
-      <screen x="0" y="25" width="2560" height="1340" />
+    <state x="946" y="354" key="CommitChangelistDialog2" timestamp="1602008804023">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="946" y="354" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1602008804023" />
     <state x="946" y="354" key="CommitChangelistDialog2/0.25.2560.1340@0.25.2560.1340" timestamp="1602000850208" />
-    <state width="1232" height="464" key="GridCell.Tab.0.bottom" timestamp="1602008456692">
+    <state width="1232" height="467" key="GridCell.Tab.0.bottom" timestamp="1602012800528">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1232" height="464" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1602008456692" />
+    <state width="1232" height="467" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1602012800528" />
     <state width="2518" height="2" key="GridCell.Tab.0.bottom/0.25.2560.1340@0.25.2560.1340" timestamp="1602001008068" />
-    <state width="1232" height="464" key="GridCell.Tab.0.center" timestamp="1602008456691">
+    <state width="1232" height="467" key="GridCell.Tab.0.center" timestamp="1602012800527">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1232" height="464" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1602008456691" />
+    <state width="1232" height="467" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1602012800527" />
     <state width="2518" height="2" key="GridCell.Tab.0.center/0.25.2560.1340@0.25.2560.1340" timestamp="1602001008067" />
-    <state width="1232" height="464" key="GridCell.Tab.0.left" timestamp="1602008456690">
+    <state width="1232" height="467" key="GridCell.Tab.0.left" timestamp="1602012800526">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1232" height="464" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1602008456690" />
+    <state width="1232" height="467" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1602012800526" />
     <state width="2518" height="2" key="GridCell.Tab.0.left/0.25.2560.1340@0.25.2560.1340" timestamp="1602001008067" />
-    <state width="1232" height="464" key="GridCell.Tab.0.right" timestamp="1602008456691">
+    <state width="1232" height="467" key="GridCell.Tab.0.right" timestamp="1602012800528">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1232" height="464" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1602008456691" />
+    <state width="1232" height="467" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1602012800528" />
     <state width="2518" height="2" key="GridCell.Tab.0.right/0.25.2560.1340@0.25.2560.1340" timestamp="1602001008068" />
-    <state x="880" y="419" key="Vcs.Push.Dialog.v2" timestamp="1602000851379">
-      <screen x="0" y="25" width="2560" height="1340" />
+    <state x="880" y="423" key="Vcs.Push.Dialog.v2" timestamp="1602008806465">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="880" y="423" key="Vcs.Push.Dialog.v2/0.0.2560.1440@0.0.2560.1440" timestamp="1602008806465" />
     <state x="880" y="419" key="Vcs.Push.Dialog.v2/0.25.2560.1340@0.25.2560.1340" timestamp="1602000851379" />
+    <state x="1588" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1602010325163">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1588" y="331" width="670" height="676" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1602010325163" />
   </component>
 </project>
